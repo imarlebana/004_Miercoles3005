@@ -13,9 +13,15 @@ public class Ejercicio4 {
 
         if (num >0){
             factorial = 1;
-            for (int i = num; i > 0; i-- ){
+            //for (int i = num; i > 0; i-- ){
+            //    factorial = factorial *i;
+            //}
+
+            for (int i = 1; i <=num; i++ ){
                 factorial = factorial *i;
             }
+
+
         }
         System.out.println("el factorial es: " + factorial);
 
