@@ -12,5 +12,9 @@ public class Saco {
         int [][] bidimensional = new int[2][4];
         int [][] bidimensional2 = {{0,1,2,3},{0,1,2,3}};
 
+        //ARRAY TRIDIMENSIONALES
+        int [][][]  tridimensional = new int [2][2][2];
+        int [][][] tridimensional2 = {{{0,1},{0,1}},{{0,1},{0,1}}};
+
     }
 }
